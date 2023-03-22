@@ -41,4 +41,4 @@ function calculateTax(taxablePay, taxRates) {
 
 const taxablePay = calculateTaxablePay(grossSalary, nhifDeductions[0], nssfDeductions);
 const tax = calculateTax(taxablePay, taxRates);
-const nhif = nhifDeductions[0
+const nhif = nhifDeductions
